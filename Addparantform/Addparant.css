@@ -1,0 +1,419 @@
+.Addparant-main {
+    display: flex;
+    padding: 20px;
+    background-color: #aaa;
+    width: 100%;
+    height: auto;
+    gap: 20px;
+}
+
+.Addparant-main-child-1 {
+    width: 25%;
+    background-color: #fff;
+    height: auto;
+    display: flex;
+    padding: 20px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.Addparant-main-child-1 h2 {
+    color: #00AFEF;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.Addparant-main-child-1-img img {
+    width: 171px;
+    height: 171px;
+    flex-shrink: 0;
+}
+
+.Addparant-main-child-1-tap-button {
+    width: 100%;
+    padding: 10px 10px 10px 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: safe;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    background: #00AFEF;
+}
+
+.Addparant-main-child-1-tap-button h3 {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.Addparant-main-child-1-tap-button svg {
+    width: 16px;
+    height: 18px;
+    flex-shrink: 0;
+    color: #FFF;
+}
+
+.Addparant-main-child-1 button {
+    width: 152px;
+    height: 36px;
+    flex-shrink: 0;
+    color: #6E7485;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+
+.Addparant-main-child-2 {
+    width: 72%;
+    background-color: #fff;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Addparant-main-child-2-General-Information {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.Addparant-main-child-2-General-Information h2 {
+    color: #00AFEF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Addparant-main-child-2-General-Information button {
+    display: flex;
+    width: 187px;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    background: #00AFEF;
+    border: none;
+}
+
+.Addparant-main-child-2-Identification-Information {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Addparant-main-child-2-Identification-Information-form {
+    display: flex;
+    justify-content: safe;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 10px;
+}
+
+.Addparant-main-child-2-title h2 {
+    color: #00AFEF;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0px 10px;
+}
+
+.Addparant-main-child-2-input-and-label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 20%;
+}
+
+.Addparant-main-child-2-input-and-label label {
+    color: #8C94A3;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.Addparant-main-child-2-input-and-label input {
+    outline: none;
+    border: none;
+}
+
+.Addparant-main-child-2-Access-Information {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Addparant-main-child-2-Associated-Students {
+    width: 100%;
+    height: auto;
+    padding: 10px 10px;
+}
+
+.Addparant-main-child-2-Associated-Students h2 {
+    color: #00AFEF;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.Addparant-main-child-2-Associated-Students-cards {
+    display: flex;
+    justify-content: safe;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.Addparant-main-child-2-card {
+    display: flex;
+    width: 50%;
+    height: 100px;
+    padding: 10px;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 10px;
+    border: 0.5px solid var(--Gray-500, #8c94a3);
+}
+
+.Addparant-main-child-2-card .cardinfo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.Addparant-main-child-2-card .cardinfo img {
+    width: 76.792px;
+    height: 76.792px;
+    border-radius: 50%;
+}
+
+.Addparant-main-child-2-card .cardinfo .imgInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.Addparant-main-child-2-card .cardinfo .imgInfo h4 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.Addparant-main-child-2-card .cardinfo .imgInfo p {
+    color: #8a8a8a;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0%;
+}
+
+.Addparant-main-child-2-card .cardinfo .imgInfo p span {
+    color: #2e8760;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.Addparant-main-child-2-card .icons {
+    display: flex;
+    gap: 22px;
+}
+
+.Addparant-main-child-2-card .icons span {
+    padding: 5px;
+    border-radius: 100%;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.Addparant-main-child-2-card .icons .green {
+    background-color: #cdfacd !important;
+    color: #2e8760 !important;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+}
+
+.Addparant-main-child-2-card .icons .gray {
+    background-color: #efefef !important;
+    color: #b4b4b4 !important;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+}
+
+.Addparant-main-child-2-card .icons .red {
+    background-color: #fff1f1 !important;
+    color: #fd8787 !important;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+}
+
+.Addparant-main-child-2-Associated-Students-Addcard-2 {
+    width: 45%;
+    display: flex;
+    height: 100px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 10px;
+    border: 0.5px solid #8c94a3f1;
+}
+
+.Addparant-main-child-2-Associated-Students-Addcard-2 h2 {
+    color: #8C94A3;
+    font-size: 15.895px;
+    font-weight: 600;
+}
+
+.Addparant-main-child-2-Associated-Students-Addcard-2 svg {
+    width: 20.895px;
+    height: 20.029px;
+    color: #8C94A3;
+}
+
+
+@media (max-width:1080px) {
+    .Addparant-main-child-2-Associated-Students-cards {
+        display: flex;
+       flex-direction: column;
+       width: 100%;
+    }
+    .Addparant-main-child-2-card {
+        display: flex;
+        width: 70%;
+    }
+
+    .Addparant-main-child-2-Associated-Students-Addcard-2 {
+        width: 70%; 
+    }
+    .Addparant-main-child-2-input-and-label {
+        width: 30%;
+    }
+}
+
+@media (max-width:844px) {
+    .Addparant-main {
+        display: flex;
+       flex-direction: column;
+    }
+    .Addparant-main-child-1 {
+        width: 100%;
+    }
+    .Addparant-main-child-2 {
+        width: 100%;
+    }
+    .Addparant-main-child-2-card {
+        display: flex;
+        width: 100%;
+    }
+    .Addparant-main-child-2-Associated-Students-Addcard-2 {
+        width: 100%;
+    }
+    .Addparant-main-child-2-card .cardinfo {
+        gap: 50px;
+    }
+    .Addparant-main-child-2-input-and-label {
+        width: 30%;
+    }
+}
+@media (max-width:486px) {
+    .Addparant-main-child-2-card .cardinfo {
+        gap: 15px;
+    }
+    .Addparant-main-child-2-card .cardinfo img {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+    }
+    .Addparant-main-child-2-card .cardinfo .imgInfo h4 {
+        font-size: 16px;
+    }
+    .Addparant-main-child-2-card .cardinfo .imgInfo p {
+        font-size: 12px;
+    }
+    .Addparant-main-child-2-card .cardinfo .imgInfo p span {
+        font-size: 12px;
+    }
+    .Addparant-main-child-2-card .icons span {
+        font-size: 12px;
+    }
+    .Addparant-main-child-2-card .icons {
+        display: flex;
+        gap: 15px;
+    }
+    .Addparant-main-child-2-Identification-Information-form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:444px) {
+    .Addparant-main-child-2-General-Information h2 {
+        font-size: 18px;
+    }
+    .Addparant-main-child-2-General-Information button {
+        display: flex;
+        width: 130px;
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+    .Addparant-main-child-2-Identification-Information-form {
+        display: flex;
+       flex-direction: column;
+       align-items: start;
+    }
+    .Addparant-main-child-2-input-and-label {
+        width: 70%;
+    }
+    .Addparant-main-child-1-img img {
+        width: 150px;
+        height: 150px;
+        flex-shrink: 0;
+    }
+}
+@media (max-width:365px) {
+    .Addparant-main-child-2-General-Information h2 {
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+    .Addparant-main-child-2-General-Information button {
+        display: flex;
+        width: 120px;
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+    .Addparant-main-child-2-card .cardinfo img {
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+    }
+    .Addparant-main-child-2-card .cardinfo .imgInfo h4 {
+        font-size: 12px;
+    }
+    .Addparant-main-child-2-card .cardinfo .imgInfo p {
+        font-size: 10px;
+    }
+    .Addparant-main-child-2-card .cardinfo .imgInfo p span {
+        font-size: 10px;
+    }
+    .Addparant-main-child-2-card .icons span {
+        font-size: 10px;
+    }
+}
